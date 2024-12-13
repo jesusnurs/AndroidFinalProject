@@ -40,19 +40,29 @@ The Movie Application is an Android-based app that allows users to explore a var
 - Navigation Component: For fragment navigation.
 
 
-## Suggestions for Additional Features
 
-### UI Improvements
-- Dark Mode Support: Add a toggle for light/dark themes.
-- Movie Trailers: Include a feature to play movie trailers within the app.
-- Dynamic Animations: Add smooth transitions and interactive animations.
+## API Documentation
+The application communicates with a backend server to fetch data for movies, concerts, and humans. Below are the details of the available API endpoints:
 
-### New Features
-- Favorites List: Allow users to favorite movies, concerts, or celebrities for quick access.
-- Search by Actor: Implement a search feature where users can find movies by actor names.
-- Share Options: Enable users to share movies or concert details via social media or messaging apps.
-- Push Notifications: Notify users about new movies, concerts, or app updates.
-- Offline Mode: Allow users to download movie details for offline viewing.
+### Get Concerts
+- Endpoint: `/concerts/`
+- HTTP Method: GET
+- Description: Fetches a list of concerts.
+- Response: A JSON array of concert objects.
+
+
+### Get Humans
+- Endpoint: `/humans/`
+- HTTP Method: GET
+- Description: Fetches a list of humans.
+- Response: A JSON array of human objects.
+
+
+### Get Films
+- Endpoint: `/films/`
+- HTTP Method: GET
+- Description: Fetches a list of top films.
+- Response: A JSON array of film objects.
 
 
 ## Screenshots

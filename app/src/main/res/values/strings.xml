@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidDev-project</string>
+    <string name="category">Category: %s</string>
+    <string name="rating">Rating: %s</string>
+    <string name="title">Title: %s</string>
+    <string name="description">Description: %s</string>
+    <string name="duration">movie-duration</string>
+    <string name="user_name">user_name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="celebrit">Celebrities</string>
+    <string name="concert">Concerts</string>
+    <string name="film">Top films</string>
+</resources>
+
